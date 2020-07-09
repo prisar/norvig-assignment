@@ -12,7 +12,7 @@ const printReponse = ( response, word, count ) => {
   }
 
   response.data.def.forEach(entry => {
-    console.log(`\n\n Part of speech: ${entry.pos}`);
+    console.log(`\n\n Part of speech: ${entry.pos === undefined ? 'NA' : entry.pos}`);
     console.log(` Translations Synonyms: `);
     const trSynonyms = [];
     entry.tr.forEach(tr => {
