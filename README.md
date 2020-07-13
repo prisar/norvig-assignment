@@ -1,6 +1,8 @@
+# Avaamo
+
 KEY is kept in .env file
 
-How to run
+## How to run
 
 `node index.js`
 
