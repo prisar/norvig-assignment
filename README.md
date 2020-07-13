@@ -1,5 +1,9 @@
 # Avaamo
 
+Task is to find the top 10 words from a book and call dictionary api(yandex) for those words.
+
+Book: http://norvig.com/big.txt
+
 KEY is kept in .env file
 
 ## How to run
